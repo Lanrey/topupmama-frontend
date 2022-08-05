@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.boxed__container {
+  max-width: 1350px !important;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.page__header__text {
+  font: normal normal 600 19px/32px Poppins;
+  letter-spacing: 0.95px;
+  color: #286cff !important;
+  display: inline;
+  text-align: center;
+  opacity: 1 !important;
+}
+
+.red__form__border {
+  border: 1px solid red !important;
+}
+
+input,
+select {
+  text-align: left;
+  font-size: 13px;
+  font-weight: semibold;
+  font-family: Poppins;
+  letter-spacing: 0.75px;
+  color: #0b0547;
+  opacity: 1;
+}
+
+.form__border {
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  border: 1px solid #0b054733;
+  border-radius: 3px;
+  opacity: 1;
+  padding: 10px;
+  outline: 0;
+}
+
+.page__header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 157.5%;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+.sub__header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 157.5%;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
